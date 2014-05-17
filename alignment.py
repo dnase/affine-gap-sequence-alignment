@@ -83,8 +83,6 @@ def backtrace(s, t, X, Y, M):
             sequ1 += s[j-1]
             sequ2 += '_'
             j -= 1
-        #print(str(i))
-        #print(str(j))
 
     sequ1r = ' '.join([sequ1[j] for j in range(-1, -(len(sequ1)+1), -1)])
     sequ2r = ' '.join([sequ2[j] for j in range(-1, -(len(sequ2)+1), -1)])
